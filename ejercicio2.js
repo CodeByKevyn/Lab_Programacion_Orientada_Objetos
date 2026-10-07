@@ -4,7 +4,7 @@ function Mascota (nombre, especie, edad, peso){
     this.edad = edad;
     this.peso = peso;
     this.presentarse = function(){
-        console.log(`${this.nombre} - ${this.especie} - ${this.edad} - ${this.peso} `)
+        return `Mascota: ${this.nombre} | Especie: ${this.especie} | Edad: ${this.edad} años | Peso: ${this.peso}kg`;
     }
 }
 
